@@ -1,7 +1,7 @@
 # Flyer Style 1.0
 
 <p align="center">
-  <img src="./img/card.jpg">
+  <img src="./styles/img/card.jpg">
 </p>
 
 ## Descrição
