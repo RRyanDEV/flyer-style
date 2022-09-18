@@ -1,0 +1,50 @@
+// Importações
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import "./components/_card.scss";
+@import "./components/_info.scss";
+
+// TAGs
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    }
+html{
+    font-family: 'Josefin Sans', sans-serif;
+}
+body{
+    position: relative;
+    background-color: black;
+}
+a{
+    color:  white;
+    outline: 0;
+    text-decoration: none;
+}
+// IDs
+
+
+
+// Containers
+.back {
+    &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    background-position: 50% 50%;
+    background-image: url(./img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(45%);
+    }
+}
+.row {
+    display: flex;
+    justify-content: center;
+    padding: 2rem 2.4rem;
+}
